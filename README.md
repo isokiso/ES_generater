@@ -1,4 +1,4 @@
-# ES_generater
+# ES_generator
 
 
 就活のESを書くのがめんどくさいので過去のESから自動で生成させようと試みた．  
