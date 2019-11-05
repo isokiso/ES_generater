@@ -1,8 +1,8 @@
 # ES_generater
 
 
-就活のESを書くのがめんどくさいので過去のESから自動で生成させようと試みた．　　
-まず就活サイト(one-carrer)から過去のESをスクレイピングしてくる．　　
+就活のESを書くのがめんどくさいので過去のESから自動で生成させようと試みた．  
+まず就活サイト(one-carrer)から過去のESをスクレイピングしてくる．  
 secret_dumy.yaml にログイン情報を更新した上で下記を実行．
 ```
 python loading/scraiping.py
