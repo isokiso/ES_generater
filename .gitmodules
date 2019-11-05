@@ -1,0 +1,3 @@
+[submodule "src/external/lesson"]
+	path = src/external/lesson
+	url = https://github.com/SPJ-AI/lesson
