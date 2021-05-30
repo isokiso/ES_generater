@@ -9,14 +9,10 @@ $python converter/loading/scraiping.py
 ```
 ## 1. LSTMを用いた生成
 
-適当な質問に対する日本語の解答を抽出．　　
+適当な質問に対する日本語の解答を抽出した後、LSTMを訓練，文書生成を行う．  
 ```
-$python extract_q.py
+$python converter/extract_q.py
 $mv data/*.txt src/external/lesson/text_generator/text/texts.txt
-```
-
-LSTMを訓練，文書生成を行う．  
-```
 $cd src/external/lesson/text_generator/
 $python make_train_data.py
 $python train.py --batch_size=30 --epochs=50
@@ -40,7 +36,6 @@ $python src/Luhn/generate.py
 -l 生成する文書の最大文字数を指定  
 ```
 
-
 出力例（Q：長所）
 
 ```
@@ -54,7 +49,7 @@ $python src/markov/generate.py
 -q 質問文のキーワードを指定（例："長所"）  
 -l 生成する文書の最大文字数を指定  
 ```
-
+出力例（Q：長所）
 ```
 keyword of question:  長所
 maximum lenght:  300
